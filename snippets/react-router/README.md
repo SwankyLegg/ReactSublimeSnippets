@@ -1,5 +1,5 @@
 React-Router
-=================================
+
 Trigger | Description
 :------- | :-------
 **redirect** | react-router Redirect

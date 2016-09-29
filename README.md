@@ -1,7 +1,9 @@
-React Snippets
-=================================
-React
-=================================
+#React Snippets
+Edited and changed from Joe Maddalone's [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets)
+This README isn't accurate because I haven't updated the README files for each section. I made the ES6 snippets the default in all cases.
+
+##React
+
 Trigger | Description
 :------- | :-------
 **Rcc** | React createClass template
@@ -77,36 +79,9 @@ Trigger | Description
 **thisp** | React this.props
 **thiss** | React this.state
 **thisr** | React this.refs
-ReactDOM
-=================================
-Trigger | Description
-:------- | :-------
-**fdn** | React.findDOMNode
-**unm** | ReactDOM unmountComponent at node
-**rdr** | react-dom render
-**imrd** | import react-dom
-ReactDOMServer
-=================================
-Trigger | Description
-:------- | :-------
-**rts** | ReactDOMServer.renderToString
-**rtsm** | ReactDOMServer.renderToStaticMarkup
-React.addons
-=================================
-Trigger | Description
-:------- | :-------
-**imrlsm** | import LinkedStateMixin
-**imrp** | import Perf
-**imrpr** | import PureRenderMixin
-**imrcst** | import ReactCSSTransitionGroup
-**imrtu** | import ReactTestUtils
-**imrtg** | import ReactTransitionGroup
-**imrcl** | import cloneWithProps
-**imrcf** | import createFragment
-**imrsc** | import shallowCompare
-**imru** | import update
-React.DOM
-=================================
+
+##React.DOM
+
 Trigger | Description
 :------- | :-------
 **Ra** | React.DOM.a
@@ -231,8 +206,40 @@ Trigger | Description
 **Rul** | React.DOM.ul
 **Rvideo** | React.DOM.video
 **Rwbr** | React.DOM.wbr
-React-Router
-=================================
+
+##ReactDOM
+
+Trigger | Description
+:------- | :-------
+**fdn** | React.findDOMNode
+**unm** | ReactDOM unmountComponent at node
+**rdr** | react-dom render
+**imrd** | import react-dom
+
+##ReactDOMServer
+
+Trigger | Description
+:------- | :-------
+**rts** | ReactDOMServer.renderToString
+**rtsm** | ReactDOMServer.renderToStaticMarkup
+
+##React.addons
+
+Trigger | Description
+:------- | :-------
+**imrlsm** | import LinkedStateMixin
+**imrp** | import Perf
+**imrpr** | import PureRenderMixin
+**imrcst** | import ReactCSSTransitionGroup
+**imrtu** | import ReactTestUtils
+**imrtg** | import ReactTransitionGroup
+**imrcl** | import cloneWithProps
+**imrcf** | import createFragment
+**imrsc** | import shallowCompare
+**imru** | import update
+
+##React-Router
+
 Trigger | Description
 :------- | :-------
 **redirect** | react-router Redirect
@@ -242,3 +249,4 @@ Trigger | Description
 **route** | Router.Route
 **imrr** | import react-router
 **router** | Router.Route
+

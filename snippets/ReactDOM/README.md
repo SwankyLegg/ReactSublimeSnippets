@@ -1,5 +1,5 @@
 ReactDOM
-=================================
+
 Trigger | Description
 :------- | :-------
 **fdn** | React.findDOMNode

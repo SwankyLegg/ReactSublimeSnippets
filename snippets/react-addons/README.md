@@ -1,5 +1,5 @@
 React.addons
-=================================
+
 Trigger | Description
 :------- | :-------
 **imrlsm** | import LinkedStateMixin

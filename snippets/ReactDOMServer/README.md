@@ -1,5 +1,5 @@
 ReactDOMServer
-=================================
+
 Trigger | Description
 :------- | :-------
 **rts** | ReactDOMServer.renderToString

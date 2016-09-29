@@ -1,5 +1,5 @@
 React.DOM
-=================================
+
 Trigger | Description
 :------- | :-------
 **Ra** | React.DOM.a

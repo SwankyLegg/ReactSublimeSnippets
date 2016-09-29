@@ -1,5 +1,5 @@
 React
-=================================
+
 Trigger | Description
 :------- | :-------
 **Rcc** | React createClass template
