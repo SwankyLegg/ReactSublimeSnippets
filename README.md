@@ -1,5 +1,6 @@
 #React Snippets
-Edited and changed from Joe Maddalone's [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets)
+Edited and changed from Joe Maddalone's [ReactSublimeSnippets](https://github.com/joemaddalone/ReactSublimeSnippets).
+
 This README isn't accurate because I haven't updated the README files for each section. I made the ES6 snippets the default in all cases.
 
 ##React
@@ -79,6 +80,15 @@ Trigger | Description
 **thisp** | React this.props
 **thiss** | React this.state
 **thisr** | React this.refs
+
+##ReactDOM
+
+Trigger | Description
+:------- | :-------
+**fdn** | React.findDOMNode
+**unm** | ReactDOM unmountComponent at node
+**rdr** | react-dom render
+**imrd** | import react-dom
 
 ##React.DOM
 
@@ -207,21 +217,24 @@ Trigger | Description
 **Rvideo** | React.DOM.video
 **Rwbr** | React.DOM.wbr
 
-##ReactDOM
-
-Trigger | Description
-:------- | :-------
-**fdn** | React.findDOMNode
-**unm** | ReactDOM unmountComponent at node
-**rdr** | react-dom render
-**imrd** | import react-dom
-
 ##ReactDOMServer
 
 Trigger | Description
 :------- | :-------
 **rts** | ReactDOMServer.renderToString
 **rtsm** | ReactDOMServer.renderToStaticMarkup
+
+##React-Router
+
+Trigger | Description
+:------- | :-------
+**redirect** | react-router Redirect
+**link** | react-router Link
+**ilink** | Router.IndexLink
+**iroute** | Router.IndexRoute
+**route** | Router.Route
+**imrr** | import react-router
+**router** | Router.Route
 
 ##React.addons
 
@@ -237,16 +250,4 @@ Trigger | Description
 **imrcf** | import createFragment
 **imrsc** | import shallowCompare
 **imru** | import update
-
-##React-Router
-
-Trigger | Description
-:------- | :-------
-**redirect** | react-router Redirect
-**link** | react-router Link
-**ilink** | Router.IndexLink
-**iroute** | Router.IndexRoute
-**route** | Router.Route
-**imrr** | import react-router
-**router** | Router.Route
 
