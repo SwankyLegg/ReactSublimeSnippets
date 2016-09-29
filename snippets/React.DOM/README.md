@@ -1,5 +1,5 @@
 React.DOM
-
+=================================
 Trigger | Description
 :------- | :-------
 **Ra** | React.DOM.a
@@ -7,8 +7,8 @@ Trigger | Description
 **Raddress** | React.DOM.address
 **Rarea** | React.DOM.area
 **Rarticle** | React.DOM.article
-**Raside** | React.DOM.aside
 **Raudio** | React.DOM.audio
+**Raside** | React.DOM.aside
 **Rb** | React.DOM.b
 **Rbase** | React.DOM.base
 **Rbdi** | React.DOM.bdi
@@ -24,8 +24,8 @@ Trigger | Description
 **Rcite** | React.DOM.cite
 **Rcode** | React.DOM.code
 **Rcol** | React.DOM.col
-**Rcolgroup** | React.DOM.colgroup
 **Rdata** | React.DOM.data
+**Rcolgroup** | React.DOM.colgroup
 **Rdatalist** | React.DOM.datalist
 **Rdd** | React.DOM.dd
 **Rdefs** | React.DOM.defs
@@ -80,19 +80,19 @@ Trigger | Description
 **Roptgroup** | React.DOM.optgroup
 **Roption** | React.DOM.option
 **Routput** | React.DOM.output
-**Rp** | React.DOM.p
 **Rparam** | React.DOM.param
+**Rp** | React.DOM.p
 **Rpath** | React.DOM.path
 **Rpolygon** | React.DOM.polygon
 **Rpolyline** | React.DOM.polyline
 **Rpre** | React.DOM.pre
-**Rprogress** | React.DOM.progress
 **Rq** | React.DOM.q
-**RradialGradient** | React.DOM.radialGradient
+**Rprogress** | React.DOM.progress
 **Rrect** | React.DOM.rect
+**RradialGradient** | React.DOM.radialGradient
 **Rrp** | React.DOM.rp
-**Rrt** | React.DOM.rt
 **Rruby** | React.DOM.ruby
+**Rrt** | React.DOM.rt
 **Rs** | React.DOM.s
 **Rsamp** | React.DOM.samp
 **Rscript** | React.DOM.script

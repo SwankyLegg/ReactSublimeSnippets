@@ -1,77 +1,77 @@
 React
-
+=================================
 Trigger | Description
 :------- | :-------
 **Rcc** | React createClass template
 **mix** | React mixins
 **cdm** | React componentDidMount
-**cwum** | React componentWillUnmount
 **cwm** | React componentWillMount
-**cwr** | React componentWillReceiveProps
-**ctt** | React ChildContextTypes
+**cwum** | React componentWillUnmount
 **cdu** | React componentDidUpdate
+**cwr** | React componentWillReceiveProps
 **cwup** | React componentWillUpdate
-**cty** | React contextTypes
 **scup** | React shouldComponentUpdate
-**rwc** | React withContext
+**ctt** | React ChildContextTypes
+**cty** | React contextTypes
+**gc** | React getChildContext
 **onbl** | onBlur
 **onch** | onChange
-**oncl** | onClick
 **oncm** | onContextMenu
+**oncl** | onClick
 **onco** | onCopy
+**rwc** | React withContext
 **onct** | onCut
 **ondc** | onDoubleClick
 **onde** | onDragEnd
 **onden** | onDragEnter
+**ondex** | onDragExit
 **ondl** | onDragLeave
 **ondo** | onDragOver
 **onds** | onDragStart
 **ondr** | onDrop
-**ondex** | onDragExit
 **onfo** | onFocus
-**Rce** | React.createElement()
-**gc** | React getChildContext
 **onin** | onInput
 **onkd** | onKeyDown
-**onku** | onKeyUp
 **onkp** | onKeyPress
+**onku** | onKeyUp
 **onmd** | onMouseDown
 **onme** | onMouseEnter
 **onml** | onMouseLeave
 **onmm** | onMouseMove
 **onmo** | onMouseOut
 **onmov** | onMouseOver
-**Rcf** | React.createFactory()
 **onmu** | onMouseUp
 **onpa** | onPaste
 **onsc** | onScroll
-**onsu** | onSubmit
 **ontc** | onTouchCancel
 **onte** | onTouchEnd
 **ontm** | onTouchMove
 **onts** | onTouchStart
-**onwh** | onWheel
+**onsu** | onSubmit
+**Rcf** | React.createFactory()
+**pt** | propTypes
 **gdp** | React getDefaultProps
+**Rce** | React.createElement()
+**onwh** | onWheel
 **gis** | React getInitialState
 **imr** | import react
-**pt** | propTypes
-**rpa** | React.PropTypes.array
 **rp** | React.PropTypes
 **rpao** | React.PropTypes.arrayOf
+**rpa** | React.PropTypes.array
 **rpb** | React.PropTypes.boolean
 **rpe** | React.PropTypes.element
 **rpf** | React.PropTypes.func
 **rpi** | React.PropTypes.instanceOf
 **rpn** | React.PropTypes.number
 **rpobj** | React.PropTypes.object
-**rpot** | React.PropTypes.oneOfType
-**dp** | defaultProps
-**rpsh** | React.PropTypes.shape
 **rpo** | React.PropTypes.oneOf
+**rpot** | React.PropTypes.oneOfType
+**rpsh** | React.PropTypes.shape
 **rps** | React.PropTypes.string
+**dp** | defaultProps
 **sp** | React this.setProps
-**thisc** | React this.context
 **ss** | React this.setState
 **thisp** | React this.props
-**thiss** | React this.state
+**thisc** | React this.context
 **thisr** | React this.refs
+**thiss** | React this.state

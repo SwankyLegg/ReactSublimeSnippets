@@ -1,9 +1,9 @@
 React-Router
-
+=================================
 Trigger | Description
 :------- | :-------
-**redirect** | react-router Redirect
 **link** | react-router Link
+**redirect** | react-router Redirect
 **ilink** | Router.IndexLink
 **iroute** | Router.IndexRoute
 **route** | Router.Route

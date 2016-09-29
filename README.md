@@ -4,94 +4,85 @@ Edited and changed from Joe Maddalone's [ReactSublimeSnippets](https://github.co
 This README isn't accurate because I haven't updated the README files for each section. I made the ES6 snippets the default in all cases.
 
 ##React
-
+=================================
 Trigger | Description
 :------- | :-------
 **Rcc** | React createClass template
 **mix** | React mixins
 **cdm** | React componentDidMount
-**cwum** | React componentWillUnmount
 **cwm** | React componentWillMount
-**cwr** | React componentWillReceiveProps
-**ctt** | React ChildContextTypes
+**cwum** | React componentWillUnmount
 **cdu** | React componentDidUpdate
+**cwr** | React componentWillReceiveProps
 **cwup** | React componentWillUpdate
-**cty** | React contextTypes
 **scup** | React shouldComponentUpdate
-**rwc** | React withContext
+**ctt** | React ChildContextTypes
+**cty** | React contextTypes
+**gc** | React getChildContext
 **onbl** | onBlur
 **onch** | onChange
-**oncl** | onClick
 **oncm** | onContextMenu
+**oncl** | onClick
 **onco** | onCopy
+**rwc** | React withContext
 **onct** | onCut
 **ondc** | onDoubleClick
 **onde** | onDragEnd
 **onden** | onDragEnter
+**ondex** | onDragExit
 **ondl** | onDragLeave
 **ondo** | onDragOver
 **onds** | onDragStart
 **ondr** | onDrop
-**ondex** | onDragExit
 **onfo** | onFocus
-**Rce** | React.createElement()
-**gc** | React getChildContext
 **onin** | onInput
 **onkd** | onKeyDown
-**onku** | onKeyUp
 **onkp** | onKeyPress
+**onku** | onKeyUp
 **onmd** | onMouseDown
 **onme** | onMouseEnter
 **onml** | onMouseLeave
 **onmm** | onMouseMove
 **onmo** | onMouseOut
 **onmov** | onMouseOver
-**Rcf** | React.createFactory()
 **onmu** | onMouseUp
 **onpa** | onPaste
 **onsc** | onScroll
-**onsu** | onSubmit
 **ontc** | onTouchCancel
 **onte** | onTouchEnd
 **ontm** | onTouchMove
 **onts** | onTouchStart
-**onwh** | onWheel
+**onsu** | onSubmit
+**Rcf** | React.createFactory()
+**pt** | propTypes
 **gdp** | React getDefaultProps
+**Rce** | React.createElement()
+**onwh** | onWheel
 **gis** | React getInitialState
 **imr** | import react
-**pt** | propTypes
-**rpa** | React.PropTypes.array
 **rp** | React.PropTypes
 **rpao** | React.PropTypes.arrayOf
+**rpa** | React.PropTypes.array
 **rpb** | React.PropTypes.boolean
 **rpe** | React.PropTypes.element
 **rpf** | React.PropTypes.func
 **rpi** | React.PropTypes.instanceOf
 **rpn** | React.PropTypes.number
 **rpobj** | React.PropTypes.object
-**rpot** | React.PropTypes.oneOfType
-**dp** | defaultProps
-**rpsh** | React.PropTypes.shape
 **rpo** | React.PropTypes.oneOf
+**rpot** | React.PropTypes.oneOfType
+**rpsh** | React.PropTypes.shape
 **rps** | React.PropTypes.string
+**dp** | defaultProps
 **sp** | React this.setProps
-**thisc** | React this.context
 **ss** | React this.setState
 **thisp** | React this.props
-**thiss** | React this.state
+**thisc** | React this.context
 **thisr** | React this.refs
-
-##ReactDOM
-
-Trigger | Description
-:------- | :-------
-**fdn** | React.findDOMNode
-**unm** | ReactDOM unmountComponent at node
-**rdr** | react-dom render
-**imrd** | import react-dom
+**thiss** | React this.state
 
 ##React.DOM
-
+=================================
 Trigger | Description
 :------- | :-------
 **Ra** | React.DOM.a
@@ -99,8 +90,8 @@ Trigger | Description
 **Raddress** | React.DOM.address
 **Rarea** | React.DOM.area
 **Rarticle** | React.DOM.article
-**Raside** | React.DOM.aside
 **Raudio** | React.DOM.audio
+**Raside** | React.DOM.aside
 **Rb** | React.DOM.b
 **Rbase** | React.DOM.base
 **Rbdi** | React.DOM.bdi
@@ -116,8 +107,8 @@ Trigger | Description
 **Rcite** | React.DOM.cite
 **Rcode** | React.DOM.code
 **Rcol** | React.DOM.col
-**Rcolgroup** | React.DOM.colgroup
 **Rdata** | React.DOM.data
+**Rcolgroup** | React.DOM.colgroup
 **Rdatalist** | React.DOM.datalist
 **Rdd** | React.DOM.dd
 **Rdefs** | React.DOM.defs
@@ -172,19 +163,19 @@ Trigger | Description
 **Roptgroup** | React.DOM.optgroup
 **Roption** | React.DOM.option
 **Routput** | React.DOM.output
-**Rp** | React.DOM.p
 **Rparam** | React.DOM.param
+**Rp** | React.DOM.p
 **Rpath** | React.DOM.path
 **Rpolygon** | React.DOM.polygon
 **Rpolyline** | React.DOM.polyline
 **Rpre** | React.DOM.pre
-**Rprogress** | React.DOM.progress
 **Rq** | React.DOM.q
-**RradialGradient** | React.DOM.radialGradient
+**Rprogress** | React.DOM.progress
 **Rrect** | React.DOM.rect
+**RradialGradient** | React.DOM.radialGradient
 **Rrp** | React.DOM.rp
-**Rrt** | React.DOM.rt
 **Rruby** | React.DOM.ruby
+**Rrt** | React.DOM.rt
 **Rs** | React.DOM.s
 **Rsamp** | React.DOM.samp
 **Rscript** | React.DOM.script
@@ -217,37 +208,46 @@ Trigger | Description
 **Rvideo** | React.DOM.video
 **Rwbr** | React.DOM.wbr
 
-##ReactDOMServer
-
+##ReactDOM
+=================================
 Trigger | Description
 :------- | :-------
-**rts** | ReactDOMServer.renderToString
+**fdn** | React.findDOMNode
+**rdr** | react-dom render
+**unm** | ReactDOM unmountComponent at node
+**imrd** | import react-dom
+
+##ReactDOMServer
+=================================
+Trigger | Description
+:------- | :-------
 **rtsm** | ReactDOMServer.renderToStaticMarkup
+**rts** | ReactDOMServer.renderToString
+
+##React.addons
+=================================
+Trigger | Description
+:------- | :-------
+**imrlsm** | import LinkedStateMixin
+**imrp** | import Perf
+**imrcst** | import ReactCSSTransitionGroup
+**imrpr** | import PureRenderMixin
+**imrtu** | import ReactTestUtils
+**imrtg** | import ReactTransitionGroup
+**imrsc** | import shallowCompare
+**imrcl** | import cloneWithProps
+**imrcf** | import createFragment
+**imru** | import update
 
 ##React-Router
-
+=================================
 Trigger | Description
 :------- | :-------
-**redirect** | react-router Redirect
 **link** | react-router Link
+**redirect** | react-router Redirect
 **ilink** | Router.IndexLink
 **iroute** | Router.IndexRoute
 **route** | Router.Route
 **imrr** | import react-router
 **router** | Router.Route
-
-##React.addons
-
-Trigger | Description
-:------- | :-------
-**imrlsm** | import LinkedStateMixin
-**imrp** | import Perf
-**imrpr** | import PureRenderMixin
-**imrcst** | import ReactCSSTransitionGroup
-**imrtu** | import ReactTestUtils
-**imrtg** | import ReactTransitionGroup
-**imrcl** | import cloneWithProps
-**imrcf** | import createFragment
-**imrsc** | import shallowCompare
-**imru** | import update
 
