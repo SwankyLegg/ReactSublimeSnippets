@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+class $1 extends React.Component {
+  render() {
+    $0
+  }
+};
+]]>
+</content>
+    <tabTrigger>Rcc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React createClass template</description>
+</snippet>

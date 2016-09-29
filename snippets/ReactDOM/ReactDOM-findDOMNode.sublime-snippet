@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+ReactDOM.findDOMNode($0)
+]]>
+</content>
+    <tabTrigger>fdn</tabTrigger>
+    <scope>source.js</scope>
+    <description>React.findDOMNode</description>
+</snippet>
